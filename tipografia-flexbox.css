@@ -1,0 +1,112 @@
+
+html { height: 100%; }​
+
+* { box-sizing: border-box; }
+
+body {
+	height: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: start;
+	-moz-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+/* Editor
+------------------------------------------------------------*/
+#editor {
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	-webkit-align-self: stretch;
+	-ms-flex-item-align: stretch;
+	align-self: stretch;
+	max-height: 100%;
+	overflow: auto;
+	background-color: #fff; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+	width: 38%;
+	padding: 1%;
+}
+
+#editor,
+form { font: 13px/18px Helvetica, Arial, sans-serif !important; }
+
+form textarea { width: 96%; padding: 2%; border: 1px solid #ccc; border-radius: 5px; background-color: #fff !important; color: #000 !important; font: normal 12px/14px 'Courier' !important; }
+form input[type=text] { color: #000; padding: 5px; border: 1px solid #ccc; border-radius: 3px; }
+form input[type=reset],
+form input[type=button] { cursor: pointer; text-transform: uppercase; background-color: #333; color: #fff; padding: 5px 15px; border: none; border-radius: 3px; }
+form input[type=button]:hover { background-color: #666; }
+form input[type=reset] { background-color: #ccc; }
+form .right { display: block; float: right; }
+
+#editor ul { padding: 0 0 0 20px; margin: 20px 0 0 0; }
+#editor ul li { padding: 0; margin: 0; }
+
+/* Texto
+------------------------------------------------------------*/
+#texto {
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	-webkit-align-self: auto;
+	-ms-flex-item-align: auto;
+	align-self: auto;
+	max-height: 100%;
+	overflow: auto;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+	width: 50%;
+	padding: 0 3%;
+}
+
+#texto.blueprint {
+background-image: -webkit-linear-gradient(#ddd 2px, transparent 2px),
+-webkit-linear-gradient(0deg, #ddd 2px, transparent 2px),
+-webkit-linear-gradient(#eee 1px, transparent 1px),
+-webkit-linear-gradient(0deg, #eee 1px, transparent 1px);
+background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+#texto.lineheight {
+background-image: -webkit-linear-gradient(bottom, #fcc 1px, transparent 1px);
+background-size: 100% 1em;
+}

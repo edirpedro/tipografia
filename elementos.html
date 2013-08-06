@@ -1,0 +1,250 @@
+<meta charset="utf-8">
+<h1>Guia de Estilo</h1>
+<p><big>Guia básico de marcação semântica, incluindo exemplos adequados de uso.</big></p>
+
+<h2>Exemplos de Títulos</h2>
+<p>O título principal desta página é um elemento <code>h1</code>. Este nível dos títulos no documento da página deve ser único, todos os subtítulos no documento abaixo dele devem seguir a partir do segundo nível.</p>
+
+<p>O título desta seção é um elemento <code>h2</code>, um título de segundo nível que é um desdobramento do assunto do título principal desta página.</p>
+
+<h3>Título de terceiro nível</h3>
+<p>O título acima é um elemento <code>h3</code>, um título de terceiro nível que é um desdobramento do assunto do título de segundo nível acima dele.</p>
+
+<h4>Título de quarto nível</h4>
+<p>O título acima é um elemento <code>h4</code>, um título de quarto nível que é um desdobramento do assunto do título de terceiro nível acima dele.</p>
+
+<h5>Título de quinto nível</h5>
+<p>O título acima é um elemento <code>h5</code>, um título de quinto nível que é um desdobramento do assunto do título de quarto nível acima dele.</p>
+
+<h6>Título de sexto nível</h6>
+<p>O título acima é um elemento <code>h6</code>, um título de sexto nível que é um desdobramento do assunto do título de quinto nível acima dele.</p>
+
+<h2>Parágrafos</h2>
+<p>Todos os parágrafos são envolvidos na tag <code>p</code>. Adicionalmente, os elementos <code>p</code> podem ser envolvidos por um elemento <code>blockquote</code> <em>se o elemento <code>p</code> é de fato uma citação</em>. Veja um exemplo de uso:</p>
+
+<blockquote>
+	<p>Nós somos o que fazemos repetidas vezes.<br>
+		Portanto, a excelência não é um ato, mas um hábito.</p>
+	<cite>Aristóteles</cite>
+</blockquote>
+
+<h2>Texto em linha</h2>
+<p>Existe uma variedade de elementos de linha no HTML que você pode usar no meio dos textos como <strong>negrito</strong>, <em>itálico</em>, <del>taxado</del>, <code>código</code>, entre outros. Veja uma lista de opções:</p>
+
+<dl>
+	
+	<dt><strong>strong</strong> e <b>b</b></dt>
+	<dd>Usado para enfatizar fortemente uma parte do texto colocando em <b>negrito</b>. A diferença entre usar <code>strong</code> e usar <code>b</code> esta no fato de que a primeira irá enfatizar o texto em leitores de tela para cegos e a segunda opção serve apenas como elemento decorativo, não carregando nenhuma importância no texto.</dd>
+	
+	<dt><em>em</em> e <i>i</i></dt>
+	<dd>Usado para enfatizar uma parte do texto colocando em <em>itálico</em>. A diferênça entre usar <code>em</code> e <code>i</code> esta no fato de que a primeira irá enfatizar o texto em leitores de tela para cegos e a segunda opção serve apenas como elemento decorativo, não carregando nenhuma importância no texto.</dd>
+	
+	<dt><cite>cite</cite></dt>
+	<dd>Usado para indicar uma citação ou referência para outra informação como o autor ou a fonte da informação.</dd>
+	
+	<dt><code>code</code></dt>
+	<dd>Identifica uma linha de código em formatação de espaçamento único. Útil para inserir códigos de máquina que precisam ser perfeitamente lidos.</dd>
+	
+	<dt><small>small</small></dt>
+	<dd>Define uma fonte de tamanho <small>menor</small> para o trecho do texto.</dd>
+	
+	<dt><big>big</big></dt>
+	<dd>Define uma fonte de tamanho <big>maior</big> para o trecho do texto.</dd>
+	
+	<dt><del>del</del></dt>
+	<dd>Usado para demarcar um trecho do texto removido mas que precisa ser mantido no texto. Exemplo: Ela comprou <del>dois</del> três pares de sapatos.</dd>
+	
+	<dt><ins>ins</ins></dt>
+	<dd>Usado para demarcar um trecho inserido no meio do texto. Exemplo: Ela comprou <del>dois</del> <ins>três</ins> pares de sapatos.</dd>
+	
+	<dt><q>q</q></dt>
+	<dd>Usado para citar um trecho do texto entre aspas. Exemplo: José disse a Maria: <q>Você vem sempre aqui?</q></dd>
+	
+	<dt><sup>sup</sup></dt>
+	<dd>Usado para demarcar um texto sobrescrito. Exemplo: 3<sup>2</sup> = 9.</dd>
+	
+	<dt><sub>sub</sub></dt>
+	<dd>Usado para demarcar um texto subescrito. Exmplo: H<sub>2</sub>O.</dd>
+	
+	<dt><abbr title="Abreviação">abbr</abbr></dt>
+	<dd>Define uma abreviação de uma palavra maior ou sigla, como <abbr title="National Aeronautics and Space Administration">NASA</abbr>.</dd>
+	
+</dl>
+
+<h2>Imagens</h2>
+
+<p>Ao inserir imagens no texto você pode escolher a sua posição especificando a classe <code>alignleft</code> para alinhar a imagem ao lado esquerdo do texto ou <code>alignright</code> para alinhar ao lado direito.</p>
+
+<figure class="alignright">
+	<img src="http://hub.edirpedro.com.br/tipografia/type.jpg" alt="Imagem ilustrativa"> 
+	<figcaption>Imagem ilustrativa.</figcaption>
+</figure>
+
+<p>In feugiat ligula sed nisi vestibulum quis viverra nibh iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum, risus in dictum suscipit, arcu lacus fringilla nunc, a porta purus purus ut felis. Vivamus vel risus at dolor consequat laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum, risus in dictum suscipit, arcu lacus fringilla nunc, a porta purus purus ut felis. Vivamus vel risus at dolor consequat laoreet.</p>
+
+<p>In feugiat ligula sed nisi vestibulum quis viverra nibh iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum, risus in dictum suscipit, arcu lacus fringilla nunc, a porta purus purus ut felis. Vivamus vel risus at dolor consequat laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum, risus in dictum suscipit, arcu lacus fringilla nunc, a porta purus purus ut felis. Vivamus vel risus at dolor consequat laoreet.</p>
+
+
+<p><a href="javascript:void(0);"><img src="http://hub.edirpedro.com.br/tipografia/typography.jpg" alt="Imagem com link" class="alignleft"></a> Hendrerit varius lectus nec hendrerit. Phasellus pulvinar diam et libero malesuada dignissim. Phasellus augue augue, posuere at lacinia vitae, blandit ut sem. Suspendisse vel fermentum purus. Aliquam eget diam ligula, in aliquet lorem. Proin eros ante, condimentum sit amet suscipit dignissim, condimentum quis arcu. Mauris sollicitudin turpis at diam accumsan cursus.</p>
+	
+<p>In feugiat ligula sed nisi vestibulum quis viverra nibh iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum, risus in dictum suscipit, arcu lacus fringilla nunc, a porta purus purus ut felis. Vivamus vel risus at dolor consequat laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum, risus in dictum suscipit, arcu lacus fringilla nunc, a porta purus purus ut felis. Vivamus vel risus at dolor consequat laoreet.</p>
+
+<p>In feugiat ligula sed nisi vestibulum quis viverra nibh iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum, risus in dictum suscipit, arcu lacus fringilla nunc, a porta purus purus ut felis. Vivamus vel risus at dolor consequat laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum, risus in dictum suscipit, arcu lacus fringilla nunc, a porta purus purus ut felis. Vivamus vel risus at dolor consequat laoreet.</p>
+
+<h2>Listas</h2>
+
+<p>Existem três tipos de listas, a lista não ordenada, que utiliza marcação com símbolos como bolinhas, quadrados e outros, a lista ordenada que utiliza marcações como 1,2,3... a,b,c... i,i,iii... entre outras e a lista de definição composta por um termo e sua definição.</p>
+
+<ul>
+	<li>Elemento de lista não ordenada;</li>
+	<li>Que tem um segundo item;</li>
+	<li>E mais um terceiro.</li>
+</ul>
+
+<ol>
+	<li>Elemento de lista ordenada;</li>
+	<li>Que tem um segundo item;</li>
+	<li>E mais um terceiro.</li>
+</ol>
+
+<ol>
+	<li>Elemento de lista ordenada cascateada;
+		<ul>
+			<li>Onde este é o conteúdo relacionado não ordenado;</li>
+			<li>Que tem um segundo item;
+				<ol type="a">
+					<li>Que por sua vez relaciona outros itens ordenados;</li>
+					<li>Que possui um segundo item;</li>
+				</ol>
+			</li>
+			<li>E mais um terceiro.</li>
+		</ul>
+	</li>
+	<li>Que tem um segundo item relacionado à primeira lista;</li>
+	<li>E mais um terceiro.</li>
+</ol>
+
+
+<ul>
+	<li><p>As vezes uma lista pode não conter apenas um texto linear, mas parágrafos descrevendo algo mais abrangente. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum venenatis eros ac condimentum.</p>
+		<p>Morbi elit odio, imperdiet at ornare vel, auctor in turpis. In hac habitasse platea dictumst. Nulla facilisi. Aliquam fermentum lobortis turpis non porttitor.</p></li>
+	<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum venenatis eros ac condimentum. Morbi elit odio, imperdiet at ornare vel, auctor in turpis. In hac habitasse platea dictumst. Nulla facilisi. Aliquam fermentum lobortis turpis non porttitor.</p></li>
+</ul>
+
+<dl>
+	<dt>Termo em elemento <code>dt</code>:</dt>
+	<dd>Definição sobre o termo acima usando o elemento <code>dd</code>. Ambos os elementos estão envolvidos pela tag <code>dl</code> e formam uma lista de definição.</dd>
+	
+	<dt>Este é um outro termo:</dt>
+	<dd>Com mais uma definição. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum venenatis eros ac condimentum. Morbi elit odio, imperdiet at ornare vel, auctor in turpis. In hac habitasse platea dictumst.</dd>
+	
+	<dt>Este é um termo que compartilha a definição do termo abaixo:</dt>
+	<dt>Este é um termo de definição:</dt>
+	<dd>O elemento <code>dt</code> não requer uma descrição direta pelo elemento <code>dd</code>, quando assim, ele irá compartilhar a definição do termo logo abaixo dele.</dd>
+</dl>
+
+<h2>Tabelas</h2>
+
+<p>Tabelas devem ser usadas para mostrar dados tabulares apenas, nunca um layout. Os elementos <code>thead</code>, <code>tfoot</code> e <code>tbody</code> ajudam a agrupar corretamente as partes que compõem a tabela. O elemento <code>caption</code> define um sumário para introdução aos dados da tabela.</p>
+
+<p>Ao utilizar tabelas nas páginas, você deve procurar usar todos os elementos de agrupamento respeitando sua ordem <code>thead</code> para o cabeçalho, <code>tfoot</code> para os dados de resultado e <code>tbody</code> para o conteúdo listado na tabela.</p>
+
+<table>
+	<caption>Sumário descritivo da tabela</caption>
+	<thead>
+		<tr>
+			<th></th>
+			<th>Título</th>
+	  		<th>Título</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="3">
+				<p>* Lorem ipsum doller sit amet.<br>
+					** Aliquam fermentum lobortis turpis non porttitor.
+				</p>
+			</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr>
+			<th>Subtítulo<em>*</em>: </th>
+			<td>Célula</td>
+			<td>Célula</td>
+		</tr>
+		<tr>
+			<th>Subtítulo<em>**</em>:</th>
+			<td>Célula</td>
+			<td>Célula</td>
+		</tr>
+		<tr>
+			<th>Subtítulo:</th>
+			<td>Célula</td>
+			<td>Célula</td>
+		</tr>
+		<tr>
+			<th>Subtítulo:</th>
+			<td>Célula</td>
+			<td>Célula</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<h2>Bloco de código</h2>
+
+<p>Um bloco de código pode ser escrito usando o elemento <code>pre</code> para manter a correta tabulação da escrita pois aqui é usada uma fonte de espaçamento único, própria para texto de máquina.</p>
+
+<pre>
+function check(value) {
+	if(value == 1)
+		return 'success';
+	else
+		return 'error';
+}
+</pre>
+
+<h2>Checagem final de estilos</h2>
+
+<p>Aqui segue uma lista de checagem visual para ter certeza de que os elementos estão formatados e se comportando como deveriam.</p>
+
+<h1>Título h1</h1>
+<h2>Título h2</h2>
+<h3>Título h3</h3>
+<h4>Título h4</h4>
+<h5>Título h5</h5>
+<h6>Título h6</h6>
+
+<h1>Título h1 Lorem ipsum<br/>doller lit abelt</h1>
+<h2>Título h2 Lorem ipsum<br/>doller lit abelt</h2>
+<h3>Título h3 Lorem ipsum<br/>doller sit abelt</h3>
+<h4>Título h4 Lorem ipsum<br/>doller sit abelt</h4>
+<h5>Título h5 Lorem ipsum<br/>doller sit abelt</h5>
+<h6>Título h6 Lorem ipsum<br/>doller sit abelt</h6>
+
+<hr>
+
+<p><a href="javascript:void(0);"><img src="http://hub.edirpedro.com.br/tipografia/typography.jpg" class="alignright"></a> Lorem ipsum dolor sit amet, acentuação é oferecida pela fonte consectetur adipiscing elit. Cras ut tellus at nisi placerat scelerisque. <em>Italic Phasellus Volutpat</em> mi quis urna tempor non tempus neque luctus. Mauris imperdiet posuere rutrum. Donec imperdiet, purus vitae <strong>Strong tincidunt rhoncus</strong>, arcu quam gravida sem, nec mollis neque magna nec nulla. Etiam hendrerit <a href="javascript:void(0);">Link Felis Vitae</a> diam accumsan vel aliquam arcu ultricies. Nam ut turpis sed nisi pellentesque gravida sit amet feugiat augue. Vivamus <ins>insert pulvinar</ins> dignissim scelerisque. Lorem ipsum dolor <del>delete sit amet consectetur</del> adipiscing elit. <cite>“Cite Fusce et fermentum massa, sed gravida erat vel tortor tincidunt blandit. Morbi cursus est sed arcu ultricies sollicitudin cursus elit luctus.”</cite></p>
+
+<p>Vivamus volutpat ante id ipsum commodo mollis. <big>Big ut ornare sagittis dui</big>, non gravida orci gravida at. Maecenas cursus <small>Small vestibulum arcu sit</small> amet sodales. Nam ultricies arcu id lacus interdum non sagittis diam vulputate. Sed scelerisque mollis suscipit. Aliquam <s>taxado vitae</s> felis accumsan sagittis convallis. Quisque in urna a orci<sub>123</sub> accumsan malesuada<sup>123</sup> vel id quam. Nullam ac venenatis odio. <q>Sed vulputate, mauris quis adipiscing lacinia.</q> Eros quam tempus eros, sit amet convallis risus tortor non lorem. Maecenas <mark>marked hendrerit justo</mark> in massa dictum vitae pulvinar erat vestibulum. Proin erat eros, tempus ut rutrum quis, fermentum id ante. Aliquam eget diam ligula, in aliquet lorem. Proin eros ante, condimentum sit amet suscipit dignissim, condimentum quis arcu. <code>function() { return true; }</code> In feugiat ligula sed nisi vestibulum quis viverra nibh iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+<hr>
+
+<ul>
+	<li>Elemento <abbr title="Title">abbr</abbr></li>
+	<li>Elemento <strong>strong</strong> e <b>b</b></li>
+	<li>Elemento <em>em</em> e <i>i</i></li>
+	<li>Elemento <cite>cite</cite></li>
+	<li>Elemento <code>code</code>, <kbd>kbd</kbd>, <var>var</var> e <samp>samp</samp></li>
+	<li>Elemento <small>small</small></li>
+	<li>Elemento <big>big</big></li>
+	<li>Elemento <del>del</del> e <s>s</s></li>
+	<li>Elemento <ins>ins</ins> e <u>u</u></li>
+	<li>Elemento <mark>mark</marlk></li>
+	<li>Elemento <dfn>dfn</dfn></li>
+	<li>Elemento <q>q</q></li>
+	<li>Elemento <sup>sup</sup> e <sub>sub</sub></li>
+</ul>
+
+

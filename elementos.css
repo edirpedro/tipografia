@@ -1,0 +1,97 @@
+/* Webfonts
+------------------------------------------------------------*/
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+@import url('http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic');
+
+
+/* Tipografia
+------------------------------------------------------------*/
+body { font: 15px/25px Cabin, sans-serif; color: #444; }
+
+
+/* Links
+------------------------------------------------------------*/
+a {}
+a:link {}
+a:visited {}
+a:active {}
+a:hover {}
+
+
+/* Textos
+------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 { font-family: Lobster, serif; font-weight: normal; line-height: 1.2em; margin: 1em 0 .5em 0; color: #666; }
+h3, h4, h5, h6 { font-family: Cabin, sans-serif; }
+h1 { font-size: 3em; margin-top: 0; padding-bottom: .5em; color: #000; border-bottom: 1px solid #eee; }
+h2 { font-size: 2em; color: #333; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.1em; }
+
+p { margin: 0 0 1.5em; }
+blockquote { padding: 0 0 0 1em; margin: 0; font-size: 1.1em; line-height: 1.5em; border-left: 5px solid #ddd; }
+q { font-style: italic; }
+q::before { content: open-quote; }
+q::after { content: close-quote; }
+cite { font-style: italic; }
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+big { font-weight: normal; font-size: 1.2em; }
+small { font-size: .8em; }
+del, s, strike { color: red; }
+ins, u { color: green; }
+mark { background-color: yellow; }
+sub { vertical-align: sub; font-size: .7em; }
+sup { vertical-align: super; font-size: .7em; }
+abbr { border-bottom: 1px dotted #000; }
+hr { margin: 2em 5em; border: none; border-bottom: 1px dashed #ccc; }
+
+
+/* Imagens
+------------------------------------------------------------*/
+img.alignright,
+figure.alignright { float: right; margin: 0 0 1em 1.5em; }
+img.alignleft,
+figure.alignleft { float: left; margin: 0 1.5em 1em 0; } 
+figcaption { font-style: italic; font-size: .9em; text-align: center; border-bottom: 1px solid #eee; padding-bottom: .5em; }
+
+
+/* Listas
+------------------------------------------------------------*/
+ul, ol { padding: 0 0 0 2em; margin: 0 0 2em 0; }
+ul ul, ul ol, ol ul, ol ol { padding: 0 0 0 .5em; margin: .5em 0 0 .5em; }
+ul { list-style-type: disc; }
+ol { list-style-type: decimal; }
+ol ol { list-style-type: lower-alpha; }
+li { margin-bottom: .5em; }
+
+dl { margin: 0 0 2em 0; }
+dt { font-weight: bold; }
+dd { margin-left: 2em; margin-bottom: 1em; }
+
+
+/* Tabelas
+------------------------------------------------------------*/
+table { width: 100%; }
+caption { background-color: #f1f1f1; margin-bottom: .2em; padding: .5em 1em; text-align: center; }
+
+thead th { padding: .5em 0; font-family: Lobster, serif; text-align: center; }
+
+tfoot td { padding: .5em; text-align: left; font-size: .8em; line-height: 1.5em; }
+
+tbody th { padding: .2em .5em; background-color: #f1f1f1; border: 1px solid #eee; }
+tbody td { padding: .2em .5em; text-align: center; border: 1px solid #eee; }
+
+
+/* Texto sem formatação
+------------------------------------------------------------*/
+pre,
+code,
+tt,
+kbd,
+var,
+samp { display: inline-block; padding: 0 .5em; font: .9em/1.3em "Courier New", Courier, mono; background-color: #f9f9f9; border: 1px solid #eee; border-radius: 5px; }
+var { font-style: italic; }
+pre { display: block; padding: 1em; }
+																																	
