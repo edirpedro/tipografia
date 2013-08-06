@@ -3,6 +3,8 @@ Tipografia
 
 Esta é uma ferramenta pessoal que utilizo quanto estou iniciando a codificação do HTML, começo sempre que possível pela tipografia global do site que é baseada na página interna fornecida pelo Designer, depois os demais elementos vão ficando mais simples de serem codificados.
 
+Com este documento criado eu tenho a certeza de que qualquer nova página criada no projeto e qualquer conteúdo criado através de um editor WYSIWYG por alguém, irá receber uma formação adequada para leitura na página. O desenvolvedor somente terá de se preocupar com elementos diferenciados que o Designer desenhou para uma página específica.
+
 
 Como utilizar
 --------------------------------------------------
