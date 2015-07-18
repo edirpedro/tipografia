@@ -1,6 +1,7 @@
 <meta charset="utf-8">
+
 <h1>Guia de Estilo</h1>
-<p><big>Guia básico de marcação semântica, incluindo exemplos adequados de uso.</big></p>
+<blockquote>Guia básico de marcação semântica, incluindo exemplos adequados de uso.</blockquote>
 
 <h2>Exemplos de Títulos</h2>
 <p>O título principal desta página é um elemento <code>h1</code>. Este nível dos títulos no documento da página deve ser único, todos os subtítulos no documento abaixo dele devem seguir a partir do segundo nível.</p>
@@ -145,20 +146,28 @@
 
 <h2>Tabelas</h2>
 
-<p>Tabelas devem ser usadas para mostrar dados tabulares apenas, nunca um layout. Os elementos <code>thead</code>, <code>tfoot</code> e <code>tbody</code> ajudam a agrupar corretamente as partes que compõem a tabela. O elemento <code>caption</code> define um sumário para introdução aos dados da tabela.</p>
+<p>Tabelas devem ser usadas para mostrar dados tabulares apenas, nunca um layout. Os elementos <code>thead</code>, <code>tfoot</code> e <code>tbody</code> ajudam a agrupar corretamente as partes que compõem a tabela. O elemento <code>caption</code> define um título para introdução aos dados da tabela.</p>
 
-<p>Ao utilizar tabelas nas páginas, você deve procurar usar todos os elementos de agrupamento respeitando sua ordem <code>thead</code> para o cabeçalho, <code>tfoot</code> para os dados de resultado e <code>tbody</code> para o conteúdo listado na tabela.</p>
+<p>Ao utilizar tabelas nas páginas, você deve procurar usar todos os elementos de agrupamento respeitando sua ordem <code>caption</code> para o título de introdução (opcional), <code>thead</code> para o títulos de cabeçalho, <code>tfoot</code> para os dados de resultado e <code>tbody</code> para o conteúdo listado na tabela.</p>
 
 <table>
-	<caption>Sumário descritivo da tabela</caption>
+	<caption>Título de introdução da tabela</caption>
 	<thead>
 		<tr>
-			<th></th>
+			<th rowspan="2"></th>
+			<th colspan="2">Título</th>
+		</tr>
+		<tr>
 			<th>Título</th>
-	  		<th>Título</th>
+			<th>Título</th>
 		</tr>
 	</thead>
 	<tfoot>
+		<tr>
+			<td></td>
+			<td>Resultado</td>
+			<td>Resultado</td>
+		</tr>
 		<tr>
 			<td colspan="3">
 				<p>* Lorem ipsum doller sit amet.<br>
@@ -168,41 +177,46 @@
 		</tr>
 	</tfoot>
 	<tbody>
-		<tr>
-			<th>Subtítulo<em>*</em>: </th>
+		<tr class="impar">
+			<th>Subtítulo<em>*</em></th>
 			<td>Célula</td>
 			<td>Célula</td>
 		</tr>
-		<tr>
-			<th>Subtítulo<em>**</em>:</th>
+		<tr class="par">
+			<th>Subtítulo<em>**</em></th>
 			<td>Célula</td>
 			<td>Célula</td>
 		</tr>
-		<tr>
-			<th>Subtítulo:</th>
+		<tr class="impar">
+			<th>Subtítulo</th>
 			<td>Célula</td>
 			<td>Célula</td>
 		</tr>
-		<tr>
-			<th>Subtítulo:</th>
+		<tr class="par">
+			<th>Subtítulo</th>
 			<td>Célula</td>
 			<td>Célula</td>
 		</tr>
 	</tbody>
 </table>
 
+<h2>Vídeo Widescreen</h2>
+
+<div class="video-16x9">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL1T_LBE7hlal1xw1TCpK8t8ouMM6A90oC" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <h2>Bloco de código</h2>
 
 <p>Um bloco de código pode ser escrito usando o elemento <code>pre</code> para manter a correta tabulação da escrita pois aqui é usada uma fonte de espaçamento único, própria para texto de máquina.</p>
 
 <pre>
-function check(value) {
+<code>function check(value) {
 	if(value == 1)
 		return 'success';
 	else
 		return 'error';
-}
+}</code>
 </pre>
 
 <h2>Checagem final de estilos</h2>
@@ -246,5 +260,3 @@ function check(value) {
 	<li>Elemento <q>q</q></li>
 	<li>Elemento <sup>sup</sup> e <sub>sub</sub></li>
 </ul>
-
-
