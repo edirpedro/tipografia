@@ -6,7 +6,7 @@
 
 /* Tipografia
 ------------------------------------------------------------*/
-body { font: 15px/25px Cabin, sans-serif; color: #444; }
+body { font: 100%/1.6 Cabin, sans-serif; color: #444; }
 
 
 /* Links
@@ -20,7 +20,7 @@ a:hover {}
 
 /* Textos
 ------------------------------------------------------------*/
-h1, h2, h3, h4, h5, h6 { font-family: Lobster, serif; font-weight: normal; line-height: 1.2em; margin: 1em 0 .5em 0; color: #666; }
+h1, h2, h3, h4, h5, h6 { font-family: Lobster, serif; font-weight: normal; line-height: 1.2; margin: 1em 0 .5em 0; color: #666; }
 h3, h4, h5, h6 { font-family: Cabin, sans-serif; }
 h1 { font-size: 3em; margin-top: 0; padding-bottom: .5em; color: #000; border-bottom: 1px solid #eee; }
 h2 { font-size: 2em; color: #333; }
@@ -30,7 +30,7 @@ h5 { font-size: 1.2em; }
 h6 { font-size: 1.1em; }
 
 p { margin: 0 0 1.5em; }
-blockquote { padding: 0 0 0 1em; margin: 0; font-size: 1.1em; line-height: 1.5em; border-left: 5px solid #ddd; }
+blockquote { padding: 0 0 0 1em; margin: 0; font-size: 1.1em; line-height: 1.5; border-left: 5px solid #ddd; }
 q { font-style: italic; }
 q::before { content: open-quote; }
 q::after { content: close-quote; }
@@ -86,7 +86,7 @@ td { padding: .2em .5em; text-align: center; border: 1px solid #eee; }
 
 thead th { padding: .5em 0; font-family: Lobster, serif; text-align: center; border: 1px solid #f1f1f1; }
 
-tfoot td p { padding: .5em; text-align: left; font-size: .8em; line-height: 1.5em; }
+tfoot td p { padding: .5em; text-align: left; font-size: .8em; line-height: 1.5; }
 tfoot td p:last-child { margin-bottom: 0; }
 
 tbody th { padding: .2em .5em; background-color: #f5f5f5; border: 1px solid #eee; }
